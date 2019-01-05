@@ -1,0 +1,10 @@
+C:\Users\Manasa Mannava\Foods\Foods\bin\Release\Foods.exe.config
+C:\Users\Manasa Mannava\Foods\Foods\bin\Release\Foods.exe
+C:\Users\Manasa Mannava\Foods\Foods\bin\Release\Foods.pdb
+C:\Users\Manasa Mannava\Foods\Foods\bin\Release\Newtonsoft.Json.dll
+C:\Users\Manasa Mannava\Foods\Foods\bin\Release\Newtonsoft.Json.pdb
+C:\Users\Manasa Mannava\Foods\Foods\bin\Release\Newtonsoft.Json.xml
+C:\Users\Manasa Mannava\Foods\Foods\obj\Release\Foods.csproj.CoreCompileInputs.cache
+C:\Users\Manasa Mannava\Foods\Foods\obj\Release\Foods.csproj.CopyComplete
+C:\Users\Manasa Mannava\Foods\Foods\obj\Release\Foods.exe
+C:\Users\Manasa Mannava\Foods\Foods\obj\Release\Foods.pdb
