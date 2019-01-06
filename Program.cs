@@ -49,16 +49,17 @@ namespace Foods
                         Console.WriteLine("{0}\t{1}\t{2}\t{3}\t{4}\t{5}", food.id, food.name, food.carbs, food.proteins, food.fats, food.description);
                     }
 
-                    Console.WriteLine("Total Carb content of all these foods together is:" + calculateCarbs(foods)+"g");
-                    Console.WriteLine("Total Protein content of all these foods together is:" + calculateProteins(foods) + "g");
-                    Console.WriteLine("Total Fat content of all these foods together is:" + calculateFats(foods) + "g");
+                    Program p = new Program();
+                    Console.WriteLine("Total Carb content of all these foods together is:" + p.calculateCarbs(foods)+"g");
+                    Console.WriteLine("Total Protein content of all these foods together is:" + p.calculateProteins(foods) + "g");
+                    Console.WriteLine("Total Fat content of all these foods together is:" + p.calculateFats(foods) + "g");
                 }
 
             }
 
         }
 
-        public static int calculateCarbs(List<Food> foods)
+        public int calculateCarbs(List<Food> foods)
         {
             int carbs_sum = 0;
             foreach (Food food in foods)
@@ -68,7 +69,7 @@ namespace Foods
             return carbs_sum;
         }
 
-        public static int calculateProteins(List<Food> foods)
+        public int calculateProteins(List<Food> foods)
         {
             int proteins_sum = 0;
             foreach (Food food in foods)
@@ -78,7 +79,7 @@ namespace Foods
             return proteins_sum;
         }
 
-        public static int calculateFats(List<Food> foods)
+        public int calculateFats(List<Food> foods)
         {
             int fats_sum = 0;
             foreach (Food food in foods)
