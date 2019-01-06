@@ -4,6 +4,7 @@
 
 
 * The easiest way to execute this app is to find the Foods.exe file in the bin/Release folder and run it.
+* The FoodsTest project is available : https://github.com/mmannava/FoodsTest
 
 ### Concepts Illustrated
 * C# 
