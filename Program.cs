@@ -59,6 +59,31 @@ namespace Foods
 
         }
 
+        /** These methods are specifically written for illustrating tests **/
+
+        public async Task<List<Food>> getAllFoods()
+        {
+            List<Food> foods = new List<Food>();
+            using (var client = new HttpClient())
+            {
+
+                HttpResponseMessage response = await client.GetAsync("https://food-rest-api-manasa-mannava.herokuapp.com/foods/");
+
+                response.EnsureSuccessStatusCode();
+                
+                using (HttpContent content = response.Content)
+                {
+                    string responseBody = await response.Content.ReadAsStringAsync();
+
+                    Console.WriteLine(responseBody.Substring(0, 50) + "........");
+
+                    foods = JsonConvert.DeserializeObject<List<Food>>(responseBody);                    
+                }
+
+            }
+            return foods;
+        }
+
         public int calculateCarbs(List<Food> foods)
         {
             int carbs_sum = 0;
