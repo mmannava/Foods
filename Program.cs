@@ -49,7 +49,7 @@ namespace Foods
                         Console.WriteLine("{0}\t{1}\t{2}\t{3}\t{4}\t{5}", food.id, food.name, food.carbs, food.proteins, food.fats, food.description);
                     }
 
-                    Program p = new Program();
+                    Program p = new Program();                   
                     Console.WriteLine("Total Carb content of all these foods together is:" + p.calculateCarbs(foods)+"g");
                     Console.WriteLine("Total Protein content of all these foods together is:" + p.calculateProteins(foods) + "g");
                     Console.WriteLine("Total Fat content of all these foods together is:" + p.calculateFats(foods) + "g");
@@ -61,7 +61,7 @@ namespace Foods
 
         /** These methods are specifically written for illustrating tests **/
 
-        public async Task<List<Food>> getAllFoods()
+        public  async Task<List<Food>> getAllFoods()
         {
             List<Food> foods = new List<Food>();
             using (var client = new HttpClient())
