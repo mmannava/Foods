@@ -8,4 +8,3 @@ C:\Users\Manasa Mannava\Foods\Foods\obj\Release\Foods.csproj.CoreCompileInputs.c
 C:\Users\Manasa Mannava\Foods\Foods\obj\Release\Foods.csproj.CopyComplete
 C:\Users\Manasa Mannava\Foods\Foods\obj\Release\Foods.exe
 C:\Users\Manasa Mannava\Foods\Foods\obj\Release\Foods.pdb
-C:\Users\Manasa Mannava\Foods\Foods\obj\Release\Foods.csprojAssemblyReference.cache
