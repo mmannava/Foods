@@ -9,4 +9,5 @@
 * C# 
 * Creating a HttpClient and deserealizing the json response from the REST api.
 * Source control through Git. 
+* NUnit Developer Tests
 
