@@ -1,6 +1,7 @@
 # Foods
 
-#### This is a C# console .NetFramework app that consumes the nodejs express rest food-api built by me.
+#### This is a C# console .NetFramework app that consumes the nodejs express rest food-api.
+(https://food-rest-api-manasa-mannava.herokuapp.com/foods)
 
 * The easiest way to execute this app is to find the Foods.exe file in the bin/Release folder and run it.
 
