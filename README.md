@@ -15,4 +15,7 @@
 ### NUNIT DEVELOPER TESTS
 
 #### 1. AllFoodsDataTest
-![getallfoodsdatatest](https://github.com/mmannava/HTTP-VERBS-Req-Res/blob/master/AllFoodsDataTest.PNG)
+![allfoodsdatatest](https://github.com/mmannava/HTTP-VERBS-Req-Res/blob/master/AllFoodsDataTest.PNG)
+
+#### 2. GetTotalCarbContentTest
+![gettotalcarbcontenttest](https://github.com/mmannava/HTTP-VERBS-Req-Res/blob/master/GetTotalCarbContentTest.PNG)
