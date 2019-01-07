@@ -22,3 +22,6 @@
 
 #### 3. GetTotalProteinContentTest
 ![gettotalproteincontenttest](https://github.com/mmannava/HTTP-VERBS-Req-Res/blob/master/GetTotalProteinContentTest.PNG)
+
+#### 4. GetTotalFatContentTest
+![gettotalfatcontenttest](https://github.com/mmannava/HTTP-VERBS-Req-Res/blob/master/GetTotalFatContentTest.PNG)
