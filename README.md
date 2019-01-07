@@ -14,5 +14,5 @@
 
 ### NUNIT DEVELOPER TESTS
 
-#### 1. GetAllFoodsDataTest
+#### 1. AllFoodsDataTest
 ![getallfoodsdatatest](https://github.com/mmannava/HTTP-VERBS-Req-Res/blob/master/AllFoodsDataTest.PNG)
