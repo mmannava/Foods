@@ -19,3 +19,6 @@
 
 #### 2. GetTotalCarbContentTest
 ![gettotalcarbcontenttest](https://github.com/mmannava/HTTP-VERBS-Req-Res/blob/master/GetTotalCarbContentTest.PNG)
+
+#### 3. GetTotalProteinContentTest
+![gettotalproteincontenttest](https://github.com/mmannava/HTTP-VERBS-Req-Res/blob/master/GetTotalProteinContentTest.PNG)
